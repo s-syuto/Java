@@ -298,7 +298,7 @@ class Sample17
 
         System.out.println("身長は" + dnum + "センチです。");
 
-        System.out.println("int?^?????????????");
+        System.out.println("int型に変数を代入します。");
         //int inum = dnum; と記述するとエラーがでる
         int inum = (int)dnum; //この型の式はキャスト演算子と呼ぶ
 
