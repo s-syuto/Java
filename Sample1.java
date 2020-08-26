@@ -402,3 +402,92 @@ class Sample22
         }
     }
 }
+
+//if~else if~elseを使う
+
+class Sample23
+{
+    public static void main(String[] args) throws IOException
+    {
+        System.out.println("整数を入力してください。");
+
+        BufferedReader br =
+         new BufferedReader(new InputStreamReader(System.in));
+
+        String str = br.readLine();
+        int res = Integer.parseInt(str);
+
+        if(res == 1){
+            System.out.println("１が入力されました。");
+        }
+
+        else if(res == 2){
+            System.out.println("２が入力されました。");
+        }
+
+        else {
+            System.out.println("１か２を入力してください。");
+        }
+    }
+}
+
+//switch文を使う(ﾀﾞﾙｯ)
+
+class Sample24
+{
+    public static void main(String[] args) throws IOException
+    {
+        System.out.println("整数を入力してください。");
+
+        BufferedReader br =
+         new BufferedReader(new InputStreamReader(System.in));
+
+        String str = br.readLine();
+        int res = Integer.parseInt(str);
+
+        switch(res){
+            case 1:
+                System.out.println("１が入力されました。");
+                break;              //"break"は忘れたら事故る
+            
+            case 2:
+                System.out.println("２が入力されました。");
+                break;
+
+            default:
+                System.out.println("１か２を入力してください。");
+                break;
+        }
+    }
+}
+
+//switch文の文字の場合分け
+
+class Sample25
+{
+    public static void main(String[] args) throws IOException
+    {
+        System.out.println("aかbを入力してください。");
+
+        BufferedReader br = 
+         new BufferedReader(new InputStreamReader(System.in));
+
+        String str = br.readLine();
+        char res = str.charAt(0);
+
+        switch(res){
+            case 'a':
+                System.out.println("aが入力されました。");
+                break;
+            
+            case 'b':
+                System.out.println("bが入力されました。");
+                break;
+
+            default:
+                System.out.println("aかbを入力してください。");
+                break;
+        }
+    }
+}
+
