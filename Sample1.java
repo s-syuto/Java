@@ -1,29 +1,29 @@
-//"println"‚Í‰üs‚ ‚è
+//"println"ã¯æ”¹è¡Œã‚ã‚Š
 
-import java.io.*;  //ƒL[ƒ{[ƒh“ü—Í—p
+import java.io.*;  //ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰å…¥åŠ›ç”¨
 
 class Sample1
 {
     public static void main(String[] args)
     {
-        System.out.println("‚æ‚¤‚±‚»Java‚ÖI");
-        System.out.println("Java‚ğ‚Í‚¶‚ß‚Ü‚µ‚å‚¤I");
+        System.out.println("ã‚ˆã†ã“ãJavaã¸ï¼");
+        System.out.println("Javaã‚’ã¯ã˜ã‚ã¾ã—ã‚‡ã†ï¼");
     }
 }
 
-//"print"‚Í‰üs‚È‚µ
+//"print"ã¯æ”¹è¡Œãªã—
 
 class Sample2
 {
     public static void main(String[] args)
     {
-        System.out.print("‚æ‚¤‚±‚»Java‚ÖI");
-        System.out.print("Java‚ğ‚Í‚¶‚ß‚Ü‚µ‚å‚¤I");
+        System.out.print("ã‚ˆã†ã“ãJavaã¸ï¼");
+        System.out.print("Javaã‚’ã¯ã˜ã‚ã¾ã—ã‚‡ã†ï¼");
     }
 }
 
-/*ƒŠƒeƒ‰ƒ‹‚É‚Â‚¢‚Ä
-    ƒŠƒeƒ‰ƒ‹‚Æ‚ÍAˆê’è‚Ì’l‚ğ•\‚·’PŒê‚Ì‚æ‚¤‚È‚à‚Ì*/
+/*ãƒªãƒ†ãƒ©ãƒ«ã«ã¤ã„ã¦
+    ãƒªãƒ†ãƒ©ãƒ«ã¨ã¯ã€ä¸€å®šã®å€¤ã‚’è¡¨ã™å˜èªã®ã‚ˆã†ãªã‚‚ã®*/
 
 
 class Sample3
@@ -31,29 +31,29 @@ class Sample3
     public static void main(String[] args)
     {
         System.out.println('A');
-        System.out.println("‚æ‚¤‚±‚»Java‚ÖI");
+        System.out.println("ã‚ˆã†ã“ãJavaã¸ï¼");
         System.out.println(123);
     }
 }
 
-//•Ï”‚É‚Â‚¢‚Ä
+//å¤‰æ•°ã«ã¤ã„ã¦
 
 class Sample4
 {
     public static void main(String[] args)
     {
-        //•Ï”num‚ÌéŒ¾
+        //å¤‰æ•°numã®å®£è¨€
         int num;
 
-        //•Ï”num‚Ö‚Ì”’l‚Ì‘ã“ü
+        //å¤‰æ•°numã¸ã®æ•°å€¤ã®ä»£å…¥
         num = 3;
 
-        System.out.println("•Ï”num‚Ì’l‚Í" + num + "‚Å‚·B");
+        System.out.println("å¤‰æ•°numã®å€¤ã¯" + num + "ã§ã™ã€‚");
 
     }
 }
 
-//•Ï”‚Ì•ÏX
+//å¤‰æ•°ã®å¤‰æ›´
 
 class Sample5
 {
@@ -63,19 +63,19 @@ class Sample5
         
         num = 3;
 
-        System.out.println("•Ï”num‚Ì’l‚Í" + num + "‚Å‚·B");
+        System.out.println("å¤‰æ•°numã®å€¤ã¯" + num + "ã§ã™ã€‚");
 
-        //•Ï”‚ÉV‚½‚È”’l‚Ì‘ã“ü
+        //å¤‰æ•°ã«æ–°ãŸãªæ•°å€¤ã®ä»£å…¥
         num = 5;
 
-        System.out.println("•Ï”num‚Ì’l‚ğ•ÏX‚µ‚Ü‚µ‚½B");
+        System.out.println("å¤‰æ•°numã®å€¤ã‚’å¤‰æ›´ã—ã¾ã—ãŸã€‚");
         
-        System.out.println("•Ï”num‚Ì’l‚Í" + num + "‚Å‚·B");
+        System.out.println("å¤‰æ•°numã®å€¤ã¯" + num + "ã§ã™ã€‚");
 
     }
 }
 
-//‚Ù‚©‚Ì•Ï”‚Ì’l‚ğ‘ã“ü‚·‚é
+//ã»ã‹ã®å¤‰æ•°ã®å€¤ã‚’ä»£å…¥ã™ã‚‹
 
 class Sample6
 {
@@ -85,62 +85,62 @@ class Sample6
 
         num1 = 3;
 
-        System.out.println("•Ï”num1‚Ì’l‚Í" + num1 + "‚Å‚·B");
+        System.out.println("å¤‰æ•°num1ã®å€¤ã¯" + num1 + "ã§ã™ã€‚");
 
-        //•Ï”num1‚Ì’l‚ğ•Ï”num2‚É•ÏX‚µ‚Ü‚·
+        //å¤‰æ•°num1ã®å€¤ã‚’å¤‰æ•°num2ã«å¤‰æ›´ã—ã¾ã™
 
         num2 = num1;
 
-        System.out.println("•Ï”num1‚Ì’l‚ğ•Ï”num2‚É‘ã“ü‚µ‚Ü‚µ‚½B");
+        System.out.println("å¤‰æ•°num1ã®å€¤ã‚’å¤‰æ•°num2ã«ä»£å…¥ã—ã¾ã—ãŸã€‚");
 
-        System.out.println("•Ï”num2‚Ì’l‚Í" + num2 + "‚Å‚·B");
+        System.out.println("å¤‰æ•°num2ã®å€¤ã¯" + num2 + "ã§ã™ã€‚");
 
     }
 }
 
-//ƒL[ƒ{[ƒh‚©‚ç‚Ì“ü—ÍBãŠm”F
+//ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ã‹ã‚‰ã®å…¥åŠ›ã€‚ä¸Šç¢ºèª
 
 class Sample7
 {
     public static void main(String[] args) throws IOException
     {
-        System.out.println("•¶š—ñ‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢");
+        System.out.println("æ–‡å­—åˆ—ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„");
 
         BufferedReader br =
          new BufferedReader(new InputStreamReader(System.in));
 
         String str = br.readLine();
 
-        System.out.println(str + "‚ª“ü—Í‚³‚ê‚Ü‚µ‚½B");
+        System.out.println(str + "ãŒå…¥åŠ›ã•ã‚Œã¾ã—ãŸã€‚");
     }
 }
 
-//”’l‚ğ“ü—Í‚·‚é
+//æ•°å€¤ã‚’å…¥åŠ›ã™ã‚‹
 
 class Sample8
 {
     public static void main(String[] args) throws IOException
     {
-        System.out.println("®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+        System.out.println("æ•´æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
         
         BufferedReader br =
          new BufferedReader(new InputStreamReader(System.in));
         
         String str = br.readLine();
-        /* "double num = Double.parseDouble(str)"‚Æ‹Lq‚·‚é‚±‚Æ‚É‚æ‚èA•¶š—ñ‚ğdoubleŒ^‚Ì•Ï”‚É‚µ‚Ä“Ç‚İ‚Ş*/
+        /* "double num = Double.parseDouble(str)"ã¨è¨˜è¿°ã™ã‚‹ã“ã¨ã«ã‚ˆã‚Šã€æ–‡å­—åˆ—ã‚’doubleå‹ã®å¤‰æ•°ã«ã—ã¦èª­ã¿è¾¼ã‚€*/
         int num = Integer.parseInt(str);
 
-        System.out.println(num + "‚ª“ü—Í‚³‚ê‚Ü‚µ‚½B");
+        System.out.println(num + "ãŒå…¥åŠ›ã•ã‚Œã¾ã—ãŸã€‚");
     }
 }
 
-//•¡”‚Ì”’l‚ğ“ü—Í‚·‚é
+//è¤‡æ•°ã®æ•°å€¤ã‚’å…¥åŠ›ã™ã‚‹
 
 class Sample9
 {
     public static void main(String[] args) throws IOException
     {
-        System.out.println("®”‚ğ‚Q‚Â“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+        System.out.println("æ•´æ•°ã‚’ï¼’ã¤å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
 
         BufferedReader br = 
          new BufferedReader(new InputStreamReader(System.in));
@@ -151,24 +151,24 @@ class Sample9
         int num1 = Integer.parseInt(str1);
         int num2 = Integer.parseInt(str2);
 
-        System.out.println("Å‰‚É" + num1 + "‚ª“ü—Í‚³‚ê‚Ü‚µ‚½B");
-        System.out.println("Ÿ‚É" + num2 + "‚ª“ü—Í‚³‚ê‚Ü‚µ‚½B");
+        System.out.println("æœ€åˆã«" + num1 + "ãŒå…¥åŠ›ã•ã‚Œã¾ã—ãŸã€‚");
+        System.out.println("æ¬¡ã«" + num2 + "ãŒå…¥åŠ›ã•ã‚Œã¾ã—ãŸã€‚");
     }
 }
 
-//®‚Ì’l‚ğ“ü—Í‚·‚é
+//å¼ã®å€¤ã‚’å…¥åŠ›ã™ã‚‹
 
 class Sample10
 {
     public static void main(String[] args)
     {
-        /* ‰‰Z‚·‚é‚à‚Ì‚ğ"‰‰Zq",‰‰Z‚Ì‘ÎÛ‚ğ"ƒIƒyƒ‰ƒ“ƒg"‚ÆŒ¾‚¤ */
-        System.out.println("1+2‚Í" + (1+2) + "‚Å‚·B");
-        System.out.println("3*4‚Í" + (3*4) + "‚Å‚·B");
+        /* æ¼”ç®—ã™ã‚‹ã‚‚ã®ã‚’"æ¼”ç®—å­",æ¼”ç®—ã®å¯¾è±¡ã‚’"ã‚ªãƒšãƒ©ãƒ³ãƒˆ"ã¨è¨€ã† */
+        System.out.println("1+2ã¯" + (1+2) + "ã§ã™ã€‚");
+        System.out.println("3*4ã¯" + (3*4) + "ã§ã™ã€‚");
     }
 }
 
-//‚¢‚ë‚ñ‚È‰‰Z
+//ã„ã‚ã‚“ãªæ¼”ç®—
 
 class Sample11
 {
@@ -178,39 +178,39 @@ class Sample11
         int num2 = 3;
         int sum = num1+num2;
 
-        System.out.println("•Ï”num1‚Ì’l‚Í" + num1 + "‚Å‚·B");
-        System.out.println("•Ï”num2‚Ì’l‚Í" + num2 + "‚Å‚·B");
-        System.out.println("num1+num2‚Ì’l‚Í" + sum + "‚Å‚·B");
+        System.out.println("å¤‰æ•°num1ã®å€¤ã¯" + num1 + "ã§ã™ã€‚");
+        System.out.println("å¤‰æ•°num2ã®å€¤ã¯" + num2 + "ã§ã™ã€‚");
+        System.out.println("num1+num2ã®å€¤ã¯" + sum + "ã§ã™ã€‚");
 
         num1 = num1+1;
 
-        System.out.println("•Ï”num1‚Ì’l‚É‚P‚½‚·‚Æ" + num1 + "‚Å‚·B");
+        System.out.println("å¤‰æ•°num1ã®å€¤ã«ï¼‘ãŸã™ã¨" + num1 + "ã§ã™ã€‚");
     }
 }
 
-//ƒL[ƒ{[ƒh‚©‚ç“ü—Í‚µ‚½’l‚ğ‘«‚µZ‚·‚éB
+//ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ã‹ã‚‰å…¥åŠ›ã—ãŸå€¤ã‚’è¶³ã—ç®—ã™ã‚‹ã€‚
 
 class Sample12
 {
     public static void main(String[] args) throws IOException
     {
-        System.out.println("®”‚ğ‚Q‚Â“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+        System.out.println("æ•´æ•°ã‚’ï¼’ã¤å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
 
         BufferedReader br =
          new BufferedReader(new InputStreamReader(System.in));
         
         String str1 = br.readLine();
-        System.out.println("2‚Â–Ú‚Ì®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢");
+        System.out.println("2ã¤ç›®ã®æ•´æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„");
         String str2 = br.readLine();
         
         int num1 = Integer.parseInt(str1);
         int num2 = Integer.parseInt(str2);
 
-        System.out.println("‘«‚µZ‚ÌŒ‹‰Ê‚Í" + (num1+num2) + "‚Å‚·B");
+        System.out.println("è¶³ã—ç®—ã®çµæœã¯" + (num1+num2) + "ã§ã™ã€‚");
     }
 }
 
-//—lX‚È‰‰Zq‚Ì—˜—p
+//æ§˜ã€…ãªæ¼”ç®—å­ã®åˆ©ç”¨
 
 class Sample13
 
@@ -220,30 +220,30 @@ class Sample13
         int num1 = 10;
         int num2 = 5;
 
-        System.out.println("num1‚Ænum2‚É—lX‚È‰‰Z‚ğs‚¢‚Ü‚·B");
-        System.out.println("num1+num2‚Í" + (num1+num2) + "‚Å‚·B");
-        System.out.println("num1-num2‚Í" + (num1-num2) + "‚Å‚·B");
-        System.out.println("num1*num2‚Í" + (num1*num2) + "‚Å‚·B");
-        System.out.println("num1/num2‚Í" + (num1/num2) + "‚Å‚·B");
-        System.out.println("num1%num2‚Í" + (num1%num2) + "‚Å‚·B");
+        System.out.println("num1ã¨num2ã«æ§˜ã€…ãªæ¼”ç®—ã‚’è¡Œã„ã¾ã™ã€‚");
+        System.out.println("num1+num2ã¯" + (num1+num2) + "ã§ã™ã€‚");
+        System.out.println("num1-num2ã¯" + (num1-num2) + "ã§ã™ã€‚");
+        System.out.println("num1*num2ã¯" + (num1*num2) + "ã§ã™ã€‚");
+        System.out.println("num1/num2ã¯" + (num1/num2) + "ã§ã™ã€‚");
+        System.out.println("num1%num2ã¯" + (num1%num2) + "ã§ã™ã€‚");
     }
 }
 
-//•¡‡“I‚È‘ã“ü‰‰Zq‚ğg‚¤
+//è¤‡åˆçš„ãªä»£å…¥æ¼”ç®—å­ã‚’ä½¿ã†
 
 class Sample14
 {
     public static void main(String[] args) throws IOException
     {
-        System.out.println("®”‚ğ‚R‚Â“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+        System.out.println("æ•´æ•°ã‚’ï¼“ã¤å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
 
         BufferedReader br =
          new BufferedReader(new InputStreamReader(System.in));
         
         String str1 = br.readLine();
-        System.out.println("2‚Â–Ú‚Ì®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+        System.out.println("2ã¤ç›®ã®æ•´æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
         String str2 = br.readLine();
-        System.out.println("3‚Â–Ú‚Ìw”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+        System.out.println("3ã¤ç›®ã®æŒ‡æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
         String str3 = br.readLine();
 
         int sum = 0;
@@ -251,26 +251,26 @@ class Sample14
         sum += Integer.parseInt(str2);
         sum += Integer.parseInt(str3);
 
-        System.out.println("3‚Â‚Ì”‚Ì‡Œv‚Í" + sum + "‚Å‚·B");
+        System.out.println("3ã¤ã®æ•°ã®åˆè¨ˆã¯" + sum + "ã§ã™ã€‚");
 
     }
 }
 
 
-//‚©‚Á‚±‚Ì—L–³
+//ã‹ã£ã“ã®æœ‰ç„¡
 
 class Sample15
 {
     public static void main(String[] args) 
     {
-        System.out.println("1+2‚Í" + 1+2 + "‚Å‚·B");
-        //‚©‚Á‚±‚ğ‚Â‚¯‚È‚¢‚Æ•¶š—ñ‚Æ‚µ‚Ä”F¯‚³‚ê‚é
+        System.out.println("1+2ã¯" + 1+2 + "ã§ã™ã€‚");
+        //ã‹ã£ã“ã‚’ã¤ã‘ãªã„ã¨æ–‡å­—åˆ—ã¨ã—ã¦èªè­˜ã•ã‚Œã‚‹
 
-        System.out.println("3*4‚Í" + 3*4 + "‚Å‚·B");
+        System.out.println("3*4ã¯" + 3*4 + "ã§ã™ã€‚");
     }
 }
 
-//‘å‚«‚ÈƒTƒCƒY‚ÌŒ^‚É‘ã“ü‚·‚é
+//å¤§ããªã‚µã‚¤ã‚ºã®å‹ã«ä»£å…¥ã™ã‚‹
 
 class Sample16
 {
@@ -278,16 +278,16 @@ class Sample16
     {
         int inum = 160;
 
-        System.out.println("g’·‚Í" + inum + "ƒZƒ“ƒ`‚Å‚·B");
+        System.out.println("èº«é•·ã¯" + inum + "ã‚»ãƒ³ãƒã§ã™ã€‚");
 
-        System.out.println("doubleŒ^‚Ì•Ï”‚É‘ã“ü‚µ‚Ü‚·B");
+        System.out.println("doubleå‹ã®å¤‰æ•°ã«ä»£å…¥ã—ã¾ã™ã€‚");
         double dnum = inum;
 
-        System.out.println("g’·‚Í" + dnum + "ƒZƒ“ƒ`‚Å‚·B");
+        System.out.println("èº«é•·ã¯" + dnum + "ã‚»ãƒ³ãƒã§ã™ã€‚");
     }
 }
 
-//¬‚³‚ÈƒTƒCƒY‚ÌŒ^‚É‘ã“ü‚·‚é
+//å°ã•ãªã‚µã‚¤ã‚ºã®å‹ã«ä»£å…¥ã™ã‚‹
 
 class Sample17
 {
@@ -295,17 +295,17 @@ class Sample17
     {
         double dnum = 160.5;
 
-        System.out.println("g’·‚Í" + dnum + "ƒZƒ“ƒ`‚Å‚·B");
+        System.out.println("èº«é•·ã¯" + dnum + "ã‚»ãƒ³ãƒã§ã™ã€‚");
 
-        System.out.println("intŒ^‚É•Ï”‚ğ‘ã“ü‚µ‚Ü‚·B");
-        //int inum = dnum; ‚Æ‹Lq‚·‚é‚ÆƒGƒ‰[‚ª‚Å‚é
-        int inum = (int)dnum; //‚±‚ÌŒ^‚Ì®‚ÍƒLƒƒƒXƒg‰‰Zq‚ÆŒÄ‚Ô
+        System.out.println("intå‹ã«å¤‰æ•°ã‚’ä»£å…¥ã—ã¾ã™ã€‚");
+        //int inum = dnum; ã¨è¨˜è¿°ã™ã‚‹ã¨ã‚¨ãƒ©ãƒ¼ãŒã§ã‚‹
+        int inum = (int)dnum; //ã“ã®å‹ã®å¼ã¯ã‚­ãƒ£ã‚¹ãƒˆæ¼”ç®—å­ã¨å‘¼ã¶
 
-        System.out.println("g’·‚Í" + inum + "ƒZƒ“ƒ`‚Å‚·B");
+        System.out.println("èº«é•·ã¯" + inum + "ã‚»ãƒ³ãƒã§ã™ã€‚");
     }
 }
 
-//ˆÙ‚È‚éŒ^“¯m‚Å‚Ì‰‰Z
+//ç•°ãªã‚‹å‹åŒå£«ã§ã®æ¼”ç®—
 
 class Sample18
 {
@@ -314,12 +314,12 @@ class Sample18
         int d = 2;
         double pi = 3.14;
 
-        System.out.println("’¼Œa‚ª" + d + "ƒZƒ“ƒ`‚Ì‰~‚Ì");
-        System.out.println("‰~ü‚Í" + (d*pi) + "ƒZƒ“ƒ`‚Å‚·B");
+        System.out.println("ç›´å¾„ãŒ" + d + "ã‚»ãƒ³ãƒã®å††ã®");
+        System.out.println("å††å‘¨ã¯" + (d*pi) + "ã‚»ãƒ³ãƒã§ã™ã€‚");
     }
 }
 
-//“¯‚¶Œ^“¯m‚Å‚Ì‰‰Z
+//åŒã˜å‹åŒå£«ã§ã®æ¼”ç®—
 
 class Sample19
 {
@@ -328,21 +328,21 @@ class Sample19
         int num1 = 5;
         int num2 = 4;
 
-        // double div = num1 / num2; ‚±‚Ì‹Lq‚ÍƒGƒ‰[“f‚©‚ê‚é
+        // double div = num1 / num2; ã“ã®è¨˜è¿°ã¯ã‚¨ãƒ©ãƒ¼åã‹ã‚Œã‚‹
         double div = (double)num1 / (double)num2;
 
-        System.out.println("5/4‚Í" + div + "‚Å‚·B");
+        System.out.println("5/4ã¯" + div + "ã§ã™ã€‚");
     }
 }
 
 
-//if•¶@
+//ifæ–‡ã€€
 
 class Sample20
 {
     public static void main(String args[]) throws IOException
     {
-        System.out.println("®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+        System.out.println("æ•´æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
 
         BufferedReader br = 
          new BufferedReader(new InputStreamReader(System.in));
@@ -351,19 +351,19 @@ class Sample20
         int res = Integer.parseInt(str);
 
         if(res == 1 )
-            System.out.println("‚P‚ª“ü—Í‚³‚ê‚Ü‚µ‚½B");
+            System.out.println("ï¼‘ãŒå…¥åŠ›ã•ã‚Œã¾ã—ãŸã€‚");
 
-        System.out.println("ˆ—‚ğI—¹‚µ‚Ü‚·B");
+        System.out.println("å‡¦ç†ã‚’çµ‚äº†ã—ã¾ã™ã€‚");
     }
 }
 
-//•¡”‚Ì•¶‚ğˆ—‚·‚éif•¶
+//è¤‡æ•°ã®æ–‡ã‚’å‡¦ç†ã™ã‚‹ifæ–‡
 
 class Sample21
 {
     public static void main(String[] args) throws IOException
     {
-        System.out.println("®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+        System.out.println("æ•´æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
 
         BufferedReader br =
          new BufferedReader(new InputStreamReader(System.in));
@@ -372,21 +372,21 @@ class Sample21
         int res = Integer.parseInt(str);
 
         if(res == 1){
-            System.out.println("‚P‚ª“ü—Í‚³‚ê‚Ü‚µ‚½B");
-            System.out.println("‚P‚ª‘I‘ğ‚³‚ê‚Ü‚µ‚½B");
+            System.out.println("ï¼‘ãŒå…¥åŠ›ã•ã‚Œã¾ã—ãŸã€‚");
+            System.out.println("ï¼‘ãŒé¸æŠã•ã‚Œã¾ã—ãŸã€‚");
         }
 
-        System.out.println("ˆ—‚ğI—¹‚µ‚Ü‚·B");
+        System.out.println("å‡¦ç†ã‚’çµ‚äº†ã—ã¾ã™ã€‚");
     }
 }
 
-//if~else•¶‚ğg‚¤
+//if~elseæ–‡ã‚’ä½¿ã†
 
 class Sample22
 {
     public static void main(String[] args) throws IOException
     {
-        System.out.println("®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+        System.out.println("æ•´æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
 
         BufferedReader br = 
          new BufferedReader(new InputStreamReader(System.in));
@@ -395,21 +395,21 @@ class Sample22
         int res = Integer.parseInt(str);
 
         if(res == 1){
-            System.out.println("‚P‚ª“ü—Í‚³‚ê‚Ü‚µ‚½B");
+            System.out.println("ï¼‘ãŒå…¥åŠ›ã•ã‚Œã¾ã—ãŸã€‚");
         }
         else{
-            System.out.println("‚PˆÈŠO‚ª“ü—Í‚³‚ê‚Ü‚µ‚½B");
+            System.out.println("ï¼‘ä»¥å¤–ãŒå…¥åŠ›ã•ã‚Œã¾ã—ãŸã€‚");
         }
     }
 }
 
-//if~else if~else‚ğg‚¤
+//if~else if~elseã‚’ä½¿ã†
 
 class Sample23
 {
     public static void main(String[] args) throws IOException
     {
-        System.out.println("®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+        System.out.println("æ•´æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
 
         BufferedReader br =
          new BufferedReader(new InputStreamReader(System.in));
@@ -418,26 +418,26 @@ class Sample23
         int res = Integer.parseInt(str);
 
         if(res == 1){
-            System.out.println("‚P‚ª“ü—Í‚³‚ê‚Ü‚µ‚½B");
+            System.out.println("ï¼‘ãŒå…¥åŠ›ã•ã‚Œã¾ã—ãŸã€‚");
         }
 
         else if(res == 2){
-            System.out.println("‚Q‚ª“ü—Í‚³‚ê‚Ü‚µ‚½B");
+            System.out.println("ï¼’ãŒå…¥åŠ›ã•ã‚Œã¾ã—ãŸã€‚");
         }
 
         else {
-            System.out.println("‚P‚©‚Q‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+            System.out.println("ï¼‘ã‹ï¼’ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
         }
     }
 }
 
-//switch•¶‚ğg‚¤(ÀŞÙ¯)
+//switchæ–‡ã‚’ä½¿ã†(ï¾€ï¾ï¾™ï½¯)
 
 class Sample24
 {
     public static void main(String[] args) throws IOException
     {
-        System.out.println("®”‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+        System.out.println("æ•´æ•°ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
 
         BufferedReader br =
          new BufferedReader(new InputStreamReader(System.in));
@@ -447,27 +447,27 @@ class Sample24
 
         switch(res){
             case 1:
-                System.out.println("‚P‚ª“ü—Í‚³‚ê‚Ü‚µ‚½B");
-                break;              //"break"‚Í–Y‚ê‚½‚ç–ŒÌ‚é
+                System.out.println("ï¼‘ãŒå…¥åŠ›ã•ã‚Œã¾ã—ãŸã€‚");
+                break;              //"break"ã¯å¿˜ã‚ŒãŸã‚‰äº‹æ•…ã‚‹
             
             case 2:
-                System.out.println("‚Q‚ª“ü—Í‚³‚ê‚Ü‚µ‚½B");
+                System.out.println("ï¼’ãŒå…¥åŠ›ã•ã‚Œã¾ã—ãŸã€‚");
                 break;
 
             default:
-                System.out.println("‚P‚©‚Q‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+                System.out.println("ï¼‘ã‹ï¼’ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
                 break;
         }
     }
 }
 
-//switch•¶‚Ì•¶š‚Ìê‡•ª‚¯
+//switchæ–‡ã®æ–‡å­—ã®å ´åˆåˆ†ã‘
 
 class Sample25
 {
     public static void main(String[] args) throws IOException
     {
-        System.out.println("a‚©b‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+        System.out.println("aã‹bã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
 
         BufferedReader br = 
          new BufferedReader(new InputStreamReader(System.in));
@@ -477,15 +477,15 @@ class Sample25
 
         switch(res){
             case 'a':
-                System.out.println("a‚ª“ü—Í‚³‚ê‚Ü‚µ‚½B");
+                System.out.println("aãŒå…¥åŠ›ã•ã‚Œã¾ã—ãŸã€‚");
                 break;
             
             case 'b':
-                System.out.println("b‚ª“ü—Í‚³‚ê‚Ü‚µ‚½B");
+                System.out.println("bãŒå…¥åŠ›ã•ã‚Œã¾ã—ãŸã€‚");
                 break;
 
             default:
-                System.out.println("a‚©b‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
+                System.out.println("aã‹bã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚");
                 break;
         }
     }
